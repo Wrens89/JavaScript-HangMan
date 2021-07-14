@@ -28,21 +28,21 @@ function game(word, guesses) {
     }
     if (isGameLost(word, guesses)) {
         console.log("Helaas, je hebt 7 x fout geraden, je hebt het spel verloren.");
-        console.log(`\n_______\n| /      |\n|/     _o_\n|       O\n|       |  |\n============`);
+        console.log(`\n__________\n| /      |\n|/      _o_\n|        O\n|       | |\n|\n============`);
         return;
     } else {
         if (counter === 1) {
-            console.log(`\n|\n|\n|\n|\n|\n============`);
+            console.log(`\n\n|\n|\n|\n|\n|\n============`);
         } else if (counter === 2) {
-            console.log(`\n| /\n|/\n|\n|\n|\n============`);
+            console.log(`\n\n| /\n|/\n|\n|\n|\n============`);
         } else if (counter === 3) {
-            console.log(`\n__________\n| /\\n|/\\n|\\n|\\n|\\n===========\``);
+            console.log(`\n__________\n| /\n|/\n|\n|\n|\n============\``);
         } else if (counter === 4) {
-            console.log(`\n__________\n| /        |\n|/\n|\n|\n|\n============`);
+            console.log(`\n__________\n| /      |\n|/\n|\n|\n|\n============`);
         } else if (counter === 5) {
-            console.log(`\n__________\n| /        |\n|/        _o_\n|\n|\n|\n============`);
+            console.log(`\n__________\n| /      |\n|/      _o_\n|\n|\n|\n============`);
         } else if (counter === 6) {
-            console.log(`\n__________\n| /        |\n|/        _o_\n|        O\n|\n|\n============`)
+            console.log(`\n__________\n| /      |\n|/      _o_\n|        O\n|\n|\n============`)
         }
     }
 

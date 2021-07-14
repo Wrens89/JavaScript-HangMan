@@ -28,7 +28,7 @@
 // }
 
 function displayWordSoFar(word, guesses) {
-  let displayedWord = " ";
+  let displayedWord = "";
   const splitWord = word.split("");
 
   for (let i = 0; i < splitWord.length; i++) {
@@ -65,7 +65,7 @@ function isGameLost(word, guesses) {
 
     let letter = word[i];
     splitWord.push(letter);
-   // console.log(splitWord);
+   console.log(splitWord);
   }
 
   counter = 0;
