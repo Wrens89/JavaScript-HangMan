@@ -1,5 +1,5 @@
 {
-  "name": "frontend-javascript-hangman",
+  "name": "hangman",
   "version": "1.0.0",
   "description": "Opdracht waarin je met behulp van een aantal jest-testen ga je een interactief spelletje maken: galgje! De gebruiker kan letters raden en die via de terminal invoeren. Maar let op! Bij zeven foute letters is het game over!",
   "main": "index.js",
@@ -9,11 +9,19 @@
     "start": "node index.js"
   },
   "author": "Rein op 't Land & Nova Eeken",
-  "license": "ISC - NOVI Hogeschool",
+  "license": "UNLICENSED",
   "dependencies": {
     "readline-sync": "^1.4.10"
   },
   "devDependencies": {
     "jest": "^26.6.3"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wrens89/JavaScript-HangMan.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Wrens89/JavaScript-HangMan/issues"
+  },
+  "homepage": "https://github.com/Wrens89/JavaScript-HangMan#readme"
 }
